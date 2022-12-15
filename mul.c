@@ -23,7 +23,7 @@ fclose(bus.file);
 free(bus.content);
 free_stack(*head);
 exit(EXIT_FAILURE);
-)
+}
 h = *head;
 aux = h->next->n * h->n;
 h->next->n = aux;
