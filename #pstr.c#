@@ -19,7 +19,8 @@ if (h->n > 127 || h->n <= 0)
 break;
 }
 printf("%c", h->n);
-h = h->next;
-}
+ }
+ h = h->next;
+
 printf("\n");
 }
